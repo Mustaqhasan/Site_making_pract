@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            /* border: 1px solid green; */
+            height:65px;
+            width:100%;
+            display: flex;;
+            /* justify-content: flex-end; */
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        #container>div{
+            /* border: 1px solid red; */
+            padding: 20px;
+            font-weight: bold;
+            font-size: 20px;  
+            /* margin-right: 40px; */
+
+
+        }
+        #container> :nth-child(8){
+            margin-right: 150px;
+        }
+        #butto{
+            flex-grow: 1;
+            margin-left: 250px;
+            padding: 0px;
+
+            
+        }
+        
+        #container>#first{
+            width:auto;
+            padding: ;
+            background-color: blueviolet;
+            color: aliceblue;
+            margin-left: 80px;
+            font-weight: bold;
+            font-size: 20px;  
+        }
+        #container>:nth-child(3){
+            color: rgb(0, 187, 255);
+        }
+
+        #para{
+            /* border:1px solid green; */
+            height: auto;
+            width: 40%;
+            margin-left: 780px;
+            margin-top: 30px;
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+
+            /* align-content: space-between; */
+
+        } 
+        #para>div{
+            /* border: 1px solid green; */
+            height: 100%;
+            width: 44%;
+            margin-left: 20px;
+            padding: 30px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            
+        } 
+        
+        #para>div>img{
+            width: 30%;
+            border-radius: 100%;
+            /* margin-top: 30px; */
+        }
+        p{
+            line-height: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            color:rgb(109, 114, 114)
+        }
+        .last{
+            /* border:1px solid red; */
+            height:auto;
+            width:45%;
+            margin-top: -670px;
+            margin-left: 80px;
+            padding-top: 30px;
+            /* display: flex; */
+
+        }
+        .last>div{
+            /* border:1px solid red; */
+            width:150px;
+            height:auto;
+        }
+        .last>div>img{
+
+        }
+        
+        h3{
+            color:rgb(0, 187, 255);
+            font-size: 20px;
+        }
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 40px;
+        }
+        .last>:nth-child(6){
+            width:50%;
+            height:auto;
+            margin:-120px 0px 0px 170px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="first">StudyLab</div>
+        <div id="butto"></div>
+        <div>Home</div>
+        <div>About</div>
+        <div>Course</div>
+        <div>Instructor</div>
+        <div>Blog</div>
+        <div>Contact</div>
+    </div>
+
+    <div id="para">
+        <div>
+            <img src="https://icons.iconarchive.com/icons/treetog/junior/128/folder-blue-pictures-icon.png" alt="">
+            <h2>Top Quality Content</h2>
+            <p>A small river named Duden flows by their place and supplies</p>
+        </div>
+        <div>
+            <img src="https://icons.iconarchive.com/icons/treetog/junior/128/folder-blue-pictures-icon.png" alt="">
+            <h2>Top Quality Content</h2>
+            <p>A small river named Duden flows by their place and supplies</p>
+        </div>
+        
+    </div>
+
+    <div id="para">
+        <div>
+            <img src="https://icons.iconarchive.com/icons/treetog/junior/128/folder-blue-pictures-icon.png" alt="">
+            <h2>Top Quality Content</h2>
+            <p>A small river named Duden flows by their place and supplies</p>
+        </div>
+        <div>
+            <img src="https://icons.iconarchive.com/icons/treetog/junior/128/folder-blue-pictures-icon.png" alt="">
+            <h2>Top Quality Content</h2>
+            <p>A small river named Duden flows by their place and supplies</p>
+        </div>
+        
+    </div>
+
+    <div class="last">
+        <h3>WELCOME TO STUDYLAB
+        </h3>
+        <h1>We Are StudyLab An Online Learning Center
+        </h1>
+        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. 
+            
+        </p>
+        <p> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+        <div>
+            <img src="https://icons.iconarchive.com/icons/treetog/junior/128/folder-blue-pictures-icon.png" alt="" >
+            
+        </div>
+
+        <div>
+            <h2>Learn anything from StudyLab, Watch video
+            </h2>
+        </div>
+
+
+
+    </div>
+</body>
+</html>
